@@ -9,7 +9,6 @@ import { createElementHTML } from "./";
 
 let element;
 export const renderTodos = (elementId, todos = []) => {
-  console.log(elementId, "todo", todos);
 
   if (!element) element = document.querySelector(elementId);
 
